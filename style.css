@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los inputs de texto y contraseña */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Botón de envío */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cambio de color del botón al pasar el mouse */
+input[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+/* Títulos dentro del contenedor */
+.login-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Etiquetas de los campos del formulario */
+label {
+  display: block;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,37 @@
+/* Estilos generales para el menú */
+.menu-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Estilos para los botones del menú */
+button {
+  width: 80%;
+  max-width: 300px;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Título del menú */
+.menu-container h1 {
+  margin-bottom: 30px;
+  color: #333;
+}

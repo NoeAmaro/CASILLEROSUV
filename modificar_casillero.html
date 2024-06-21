@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modificar Casillero</title>
+<link rel="stylesheet" href="estilo_modificar.css">
+</head>
+<body>
+
+<div class="form-container">
+  <h1>Modificar Casillero</h1>
+  <form id="formModificarCasillero">
+    <div>
+      <label for="matriculaBuscar">Matrícula del Alumno:</label>
+      <input type="text" id="matriculaBuscar" name="matriculaBuscar" required>
+      <button type="button" onclick="buscarCasillero()">Buscar</button>
+    </div>
+    <div id="datosCasillero" style="display:none;">
+      <!-- Los campos para modificar los datos se mostrarán aquí después de la búsqueda -->
+    </div>
+    <div>
+      <input type="submit" value="Actualizar Datos" style="display:none;">
+    </div>
+  </form>
+</div>
+
+<script>
+  // Aquí puedes agregar el script para buscar y actualizar los datos en la base de datos de Excel en la nube
+  function buscarCasillero() {
+    // Implementa la lógica para buscar los datos del casillero en tu base de datos de Excel en la nube
+    // Por ejemplo, puedes hacer una solicitud AJAX a tu servidor o API que maneje la interacción con la base de datos
+    // Una vez que obtengas los datos, puedes mostrarlos en el formulario para que sean editados
+  }
+</script>
+
+<button onclick="window.location.href='menu.html'">Ir al Menú</button>
+
+
+</body>
+</html>

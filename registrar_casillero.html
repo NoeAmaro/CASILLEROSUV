@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrar Nuevo Casillero</title>
+<link rel="stylesheet" href="registrar_estilo.css">
+</head>
+<body>
+
+<div class="form-container">
+  <h1>Registrar Nuevo Casillero</h1>
+  <form action="/tu_endpoint_para_procesar_el_formulario" method="post">
+    <div>
+      <label for="nombreAlumno">Nombre del Alumno:</label>
+      <input type="text" id="nombreAlumno" name="nombreAlumno" required>
+    </div>
+    <div>
+      <label for="carrera">Carrera:</label>
+      <input type="text" id="carrera" name="carrera" required>
+    </div>
+    <div>
+      <label for="semestre">Semestre:</label>
+      <input type="number" id="semestre" name="semestre" required>
+    </div>
+    <div>
+      <label for="matricula">Matrícula:</label>
+      <input type="text" id="matricula" name="matricula" required>
+    </div>
+    <div>
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required>
+    </div>
+    <div>
+      <label for="contactoTelefonico">Contacto Telefónico:</label>
+      <input type="tel" id="contactoTelefonico" name="contactoTelefonico" required>
+    </div>
+    <div>
+      <label for="nombreTutor">Nombre del Tutor:</label>
+      <input type="text" id="nombreTutor" name="nombreTutor" required>
+    </div>
+    <div>
+      <input type="submit" value="Registrar">
+    </div>
+  </form>
+</div>
+
+<script>
+  // Aquí puedes agregar cualquier script de JavaScript que necesites
+</script>
+
+<button onclick="window.location.href='menu.html'">Ir al Menú</button>
+
+
+</body>
+</html>

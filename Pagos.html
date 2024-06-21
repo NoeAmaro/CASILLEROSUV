@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro de Pagos</title>
+<link rel="stylesheet" href="estilo_pagos.css">
+</head>
+<body>
+
+<div class="form-container">
+  <h1>Registro de Pagos</h1>
+  <form action="/tu_endpoint_para_procesar_pagos" method="post">
+    <div>
+      <label for="nombreAlumno">Nombre del Alumno:</label>
+      <input type="text" id="nombreAlumno" name="nombreAlumno" required>
+    </div>
+    <div>
+      <label for="matricula">Matrícula:</label>
+      <input type="text" id="matricula" name="matricula" required>
+    </div>
+    <div>
+      <label for="fechaPago">Fecha de Pago:</label>
+      <input type="date" id="fechaPago" name="fechaPago" required>
+    </div>
+    <div>
+      <label for="confirmacionPago">Confirmación de Pago:</label>
+      <input type="checkbox" id="confirmacionPago" name="confirmacionPago">
+      <label for="confirmacionPago">Pago Realizado</label>
+    </div>
+    <div>
+      <input type="submit" value="Registrar Pago">
+    </div>
+  </form>
+</div>
+
+<script>
+  // Aquí puedes agregar cualquier script de JavaScript que necesites
+</script>
+
+<button onclick="window.location.href='menu.html'">Ir al Menú</button>
+
+
+</body>
+</html>
